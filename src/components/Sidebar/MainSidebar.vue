@@ -1,6 +1,7 @@
 <template>
-  <q-list>
-    <q-item-label class="text-primary" header> Essential Links </q-item-label>
+  <q-list class=""
+    style="background-image: url('/assets/sidebar.png'); background-size: 300px; background-repeat: no-repeat; height: 100%; padding-top: 230px;">
+    <q-item-label class="text-primary" header> </q-item-label>
 
     <MenuLink v-for="link in essentialLinks" :key="link.title" v-bind="link" />
   </q-list>
